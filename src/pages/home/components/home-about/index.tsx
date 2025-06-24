@@ -1,6 +1,6 @@
-import { PhoneNumber } from '@c/phone-number';
 import { Fragment } from 'react';
-import c from './style.module.css'
+import { PhoneNumber } from '@c/phone-number';
+import c from './style.module.css';
 
 export const HomeAbout = () => {
   return (
@@ -8,5 +8,5 @@ export const HomeAbout = () => {
       <PhoneNumber />
       <Fragment>123</Fragment>
     </div>
-  )
-}
+  );
+};
